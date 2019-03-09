@@ -26,7 +26,7 @@ start();
 
 function start(){
     // Initalise the game values
-    dim = 1;
+    dim = 2;
     width = Math.round(32 * dim);
     height = Math.round(16 * dim);
     snake = [[3,2], [4,2], [5,2]];
